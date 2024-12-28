@@ -1,0 +1,13 @@
+{
+  "solution": {
+    "path": "MybitProject.sln",
+    "projects": [
+      "src\\Client\\MybitProject.Client.Core\\MybitProject.Client.Core.csproj",
+      "src\\Client\\MybitProject.Client.Web\\MybitProject.Client.Web.csproj",
+      "src\\Server\\MybitProject.Server.Api\\MybitProject.Server.Api.csproj",
+      "src\\Server\\MybitProject.Server.Web\\MybitProject.Server.Web.csproj",
+      "src\\Shared\\MybitProject.Shared.csproj",
+      "src\\Tests\\MybitProject.Tests.csproj"
+    ]
+  }
+}

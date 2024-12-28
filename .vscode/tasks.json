@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "dotnet build",
+            "type": "shell",
+            "command": "dotnet build src/Client/MybitProject.Client.Core/MybitProject.Client.Core.csproj -t:BeforeBuildTasks",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}
